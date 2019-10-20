@@ -520,6 +520,39 @@ header {
     left: 35%;
 }
 
+/*--------------------------team section-----------------------------*/
+
+.meet-the-team {
+    background: #eff7fa;
+    width: 100%;
+}
+.meet-section {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.header-team  h1 {
+    font-size: 2.2em;
+    color: #ffc501;
+    margin-bottom: 30px;
+}
+.header-team  p {
+    font-size: 0.9em;
+}
+.team-cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.team-cards img {
+    /*width: 270px;*/
+    margin-top: 65px;
+}
+.card h3 {
+    font-size: 1.25em;
+    color: white;
+    background: #33d1cc;
+}
 
 /*----------------------media screen-----------------------------------------*/
 @media screen and (max-width: 770px) {
